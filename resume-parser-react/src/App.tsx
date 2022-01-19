@@ -79,6 +79,10 @@ function App() {
             <strong>Email:</strong>
             {data.emails.length !== 0 && data.emails[0].value}{" "}
           </h2>
+          <h2>
+            <strong>Phone:</strong>
+            {data.phones.length !== 0 && data.phones[0].value}{" "}
+          </h2>
           <h4>
             <strong>Skill:</strong>
             {data.summary.skills}
